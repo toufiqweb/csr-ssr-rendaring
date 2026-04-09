@@ -12,7 +12,7 @@ const FoodsPage = async () => {
     <div className="container mx-auto py-10 ">
       <h1 className="text-6xl text-center font-bold ">ALL FOODS</h1>
 
-      <div className="grid grid-cols-3 gap-5 my-10 ">
+      <div className="grid grid-cols-3 gap-15 my-10 ">
         {
             foods.map(food => <Food key={ food.id} food={food}/>)
         }
